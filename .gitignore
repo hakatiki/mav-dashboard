@@ -1,0 +1,5 @@
+*.pdf
+scraper/json_output/
+scraper/logging/*.csv
+scraper/output
+*.pyc

@@ -1,0 +1,22 @@
+{
+  "name": "mav-stations-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch MAV stations data",
+  "main": "fetch_mav_nodejs.js",
+  "scripts": {
+    "fetch": "node fetch_mav_nodejs.js",
+    "install-deps": "npm install mav-stations"
+  },
+  "dependencies": {
+    "mav-stations": "^0.3.4"
+  },
+  "keywords": [
+    "mav",
+    "stations",
+    "hungary",
+    "railway",
+    "transport"
+  ],
+  "author": "",
+  "license": "ISC"
+}

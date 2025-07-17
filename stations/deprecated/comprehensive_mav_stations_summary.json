@@ -1,0 +1,188 @@
+{
+  "total_stations": 1757,
+  "sources": {
+    "Wikidata": 1747,
+    "known_stations": 10
+  },
+  "major_hubs": 10,
+  "international_stations": 5,
+  "stations_with_coordinates": 1731,
+  "generated_at": "2025-07-11 17:22:25 UTC",
+  "data_sources": [
+    "OpenStreetMap (via Overpass API)",
+    "Wikidata (via SPARQL)",
+    "Known MAV stations database"
+  ],
+  "sample_stations": [
+    {
+      "id": "wd_Q21997555",
+      "name": "Aba-Sárkeresztúr vasútállomás",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q21997555",
+      "city": "Aba",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500144",
+      "coordinates": {
+        "longitude": 18.542433,
+        "latitude": 47.023729
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21997555"
+    },
+    {
+      "id": "wd_Q21998903",
+      "name": "Abaliget vasútállomás",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q21998903",
+      "city": "Abaliget",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500146",
+      "coordinates": {
+        "longitude": 18.075268,
+        "latitude": 46.152726
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21998903"
+    },
+    {
+      "id": "wd_Q116978570",
+      "name": "Abapuszta megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q116978570",
+      "city": "",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "",
+      "coordinates": {
+        "longitude": 21.867027,
+        "latitude": 47.709375
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q116978570"
+    },
+    {
+      "id": "wd_Q22075340",
+      "name": "Abaújkér megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q22075340",
+      "city": "Abaújkér",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500148",
+      "coordinates": {
+        "longitude": 21.197988888,
+        "latitude": 48.308883333
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q22075340"
+    },
+    {
+      "id": "wd_Q22075333",
+      "name": "Abaújszántó vasútállomás",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q22075333",
+      "city": "Abaújszántó",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500150",
+      "coordinates": {
+        "longitude": 21.181238888,
+        "latitude": 48.286544444
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q22075333"
+    },
+    {
+      "id": "wd_Q22075334",
+      "name": "Abaújszántói fürdő megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q22075334",
+      "city": "Abaújszántó",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500149",
+      "coordinates": {
+        "longitude": 21.179561111,
+        "latitude": 48.268705555
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q22075334"
+    },
+    {
+      "id": "wd_Q21891724",
+      "name": "Abda megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q21891724",
+      "city": "Abda",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500151",
+      "coordinates": {
+        "longitude": 17.540713,
+        "latitude": 47.690741
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21891724"
+    },
+    {
+      "id": "wd_Q21921450",
+      "name": "Abony vasútállomás",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q21921450",
+      "city": "Abony",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500152",
+      "coordinates": {
+        "longitude": 20.01606,
+        "latitude": 47.173179
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21921450"
+    },
+    {
+      "id": "wd_Q21923407",
+      "name": "Abonyi út megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q21923407",
+      "city": "Szolnok",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500153",
+      "coordinates": {
+        "longitude": 20.125062,
+        "latitude": 47.206564
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q21923407"
+    },
+    {
+      "id": "wd_Q22047683",
+      "name": "Abádszalók megállóhely",
+      "type": "station",
+      "country": "Hungary",
+      "countryIso": "HU",
+      "source": "Wikidata",
+      "wikidata": "Q22047683",
+      "city": "Abádszalók",
+      "operator": "MÁV Magyar Államvasutak Zrt.",
+      "uic_ref": "5500145",
+      "coordinates": {
+        "longitude": 20.553206,
+        "latitude": 47.455329
+      },
+      "wikidata_uri": "http://www.wikidata.org/entity/Q22047683"
+    }
+  ]
+}
