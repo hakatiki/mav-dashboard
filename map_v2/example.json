@@ -1,0 +1,1812 @@
+{
+    "data": {
+      "route": {
+        "alerts": [],
+        "id": "1:2431.",
+        "desc": null,
+        "agency": {
+          "id": "1:134",
+          "name": "GYSEV Zrt.",
+          "url": "http://www2.gysev.hu/",
+          "timezone": "Europe/Budapest",
+          "lang": "hu",
+          "phone": "+36 (99) 577-212"
+        },
+        "longName": "Sz 19801",
+        "shortName": "<span class=\"MNR2007\">&#484;</span>",
+        "mode": "RAIL",
+        "type": 106,
+        "color": "FEFEFE",
+        "textColor": "00A0E3",
+        "bikesAllowed": "NO_INFORMATION",
+        "routeBikesAllowed": "NO_INFORMATION",
+        "url": null,
+        "patterns": [
+          {
+            "id": "UGF0dGVybjoxOjI0MzEuOjowMQ",
+            "headsign": "Győr",
+            "fromStopName": "Zalaegerszeg",
+            "name": "<span class=\"MNR2007\">&#484;</span> to Vasvár (1:004305314_0)",
+            "patternGeometry": {
+              "points": "qaz|GauyeBuTz@kC]qBu@}AiA_AaAcA}AgN_V}DyEoDuCmDuByCkAqOaD_CSqB@oCb@mBp@{\\tU{Av@gCt@yD\\sAC}BYcBe@kB{@mDsC{AmBuAeC{A{DiAuEcP}lAmAkGgC{GuWkh@oB_D{CoDixAqtAkEeGeCoGwAkHm@aJc@s_@OgY??XhR?rHDtJCnFIhCKzAGl@QxASxAKj@Kj@]tA_@pAe@pASf@Qd@k@jAm@dAmAbBkBzB_FrFuAxAwAtA}ApA}AhAaBbAeB|@cAd@eA`@eA^kBh@oe@fMoBj@kBp@iBv@cAf@aAj@aBdAcCjBg@b@mBnBaAdAuObSuMtPeCxCuBrBkBdB[T}DdCcLdHsFpDm@b@_FdD}DfCoDnB}At@aBr@cBn@kMrEcYfK{j@vSyWpJmChAuB`AeCrAwAz@cb@~XgPzKaMhIcHnDsEdBoFhBqGbByBd@{AX{Cb@{BV_BL}ET_CDeMN]BaCDcEDgC?mEDiNP{ILsZXmd@f@cBFcAFcALcARa@HcAX_@NaA`@_@P}@f@_@T{@n@uAlAqAtAs@|@s@~@cAdBaAjBy@pBc@lA_@nAk@tBc@nBa@`C]dCc@fEqBlQg@|EQdAUfA_@~AOn@e@~Ak@~AiAnCw@|A}@xAaArAw@z@iAlAcBtAi@^_Aj@yAr@iC~@gFnAuGzAsH`B}@RmAPqALgBDmAAcBKkAMqAWsAa@wAg@{BaAaa@yQyhA}g@uAk@y@Wy@Wy@Q{@Oy@KsAKwAEu@?w@@mBJma@pCyAF{AByBE{@G}@KyBa@}@U{@WyAk@y@_@y@c@sAy@oA_As@k@iAeAs^m]s@o@kAcAiBwAmBqAeLcHq@]m@YeA]eAQk@Gk@Ai@?g@Bi@Hg@Jg@Ne@Pc@Re@Vc@Zs@l@o@p@]d@[d@i@~@o@vAgAvCyMv_@Sb@kFlOu@`Ca@vAqA`Fm@hCy@~D[~Ac@nCc@pCS|AsFjd@[xBUlAYjAOb@o@hBs@dBcDlHo@fB]fAWjAUlAOpAKrAAh@C~A?pAHdBPpBJl@Jl@Nj@`@xAb@tArDvKf@|APn@`@bBLp@VhBNjBDt@HlBpBxw@BdC?lBEbAIdB",
+              "length": 300
+            },
+            "trips": [
+              {
+                "activeDates": [
+                  "20250914",
+                  "20250907",
+                  "20250921"
+                ]
+              }
+            ],
+            "stops": [
+              {
+                "code": null,
+                "id": "1:005504895_0",
+                "lat": 46.833056,
+                "lon": 16.848333,
+                "name": "Zalaegerszeg",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.848333,
+                      46.833056
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005505371_0",
+                "lat": 46.8875,
+                "lon": 16.909444,
+                "name": "Zalaszentiván",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.909444,
+                      46.8875
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:004305314_0",
+                "lat": 47.056944,
+                "lon": 16.800278,
+                "name": "Vasvár",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.800278,
+                      47.056944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              }
+            ],
+            "tripsForDate": [],
+            "alerts": [],
+            "vehiclePositions": []
+          },
+          {
+            "id": "UGF0dGVybjoxOjI0MzEuOjowMg",
+            "headsign": "Győr",
+            "fromStopName": "Zalaegerszeg",
+            "name": "<span class=\"MNR2007\">&#484;</span> to Győr (1:005501289_0) from Zalaegerszeg (1:005504895_0)",
+            "patternGeometry": {
+              "points": "qaz|GauyeBuTz@kC]qBu@}AiA_AaAcA}AgN_V}DyEoDuCmDuByCkAqOaD_CSqB@oCb@mBp@{\\tU{Av@gCt@yD\\sAC}BYcBe@kB{@mDsC{AmBuAeC{A{DiAuEcP}lAmAkGgC{GuWkh@oB_D{CoDixAqtAkEeGeCoGwAkHm@aJc@s_@OgY??XhR?rHDtJCnFIhCKzAGl@QxASxAKj@Kj@]tA_@pAe@pASf@Qd@k@jAm@dAmAbBkBzB_FrFuAxAwAtA}ApA}AhAaBbAeB|@cAd@eA`@eA^kBh@oe@fMoBj@kBp@iBv@cAf@aAj@aBdAcCjBg@b@mBnBaAdAuObSuMtPeCxCuBrBkBdB[T}DdCcLdHsFpDm@b@_FdD}DfCoDnB}At@aBr@cBn@kMrEcYfK{j@vSyWpJmChAuB`AeCrAwAz@cb@~XgPzKaMhIcHnDsEdBoFhBqGbByBd@{AX{Cb@{BV_BL}ET_CDeMN]BaCDcEDgC?mEDiNP{ILsZXmd@f@cBFcAFcALcARa@HcAX_@NaA`@_@P}@f@_@T{@n@uAlAqAtAs@|@s@~@cAdBaAjBy@pBc@lA_@nAk@tBc@nBa@`C]dCc@fEqBlQg@|EQdAUfA_@~AOn@e@~Ak@~AiAnCw@|A}@xAaArAw@z@iAlAcBtAi@^_Aj@yAr@iC~@gFnAuGzAsH`B}@RmAPqALgBDmAAcBKkAMqAWsAa@wAg@{BaAaa@yQyhA}g@uAk@y@Wy@Wy@Q{@Oy@KsAKwAEu@?w@@mBJma@pCyAF{AByBE{@G}@KyBa@}@U{@WyAk@y@_@y@c@sAy@oA_As@k@iAeAs^m]s@o@kAcAiBwAmBqAeLcHq@]m@YeA]eAQk@Gk@Ai@?g@Bi@Hg@Jg@Ne@Pc@Re@Vc@Zs@l@o@p@]d@[d@i@~@o@vAgAvCyMv_@Sb@kFlOu@`Ca@vAqA`Fm@hCy@~D[~Ac@nCc@pCS|AsFjd@[xBUlAYjAOb@o@hBs@dBcDlHo@fB]fAWjAUlAOpAKrAAh@C~A?pAHdBPpBJl@Jl@Nj@`@xAb@tArDvKf@|APn@`@bBLp@VhBNjBDt@HlBpBxw@BdC?lBEbAIdBAFIbB_@~EKhAW`C]xBYdBa@jBc@lBi@nBa@pAg@nAg@lAw@~Ay@tAgAdBk@v@mAjAk]t[eFtEi@d@oBfBkPjOuApAsh@bf@mBfBoG`Gad@va@g~@pz@gPhOw@t@kGrFeNhM{}@hz@mPnOel@pi@sWfVgh@ve@wXjW}t@zq@cObNarAnmAm@f@gAfAcDxCmvApqAkcDlzC[XuClCqg@le@mo@vl@qC`CeDjC_DzBwClBoC~A}C`BwCpAuCfAo[jK}MrEyU|HwNzEcCv@cc@jNm@Ns@Ls@HY@u@@u@C]C}@O_@G{@Y}@a@y@g@w@m@q@q@WYk@u@e@w@u@wAo@_B[eAYkAKg@UuAS{AK_BGaBAgB?s@FgBRaDjBaVdJ{mAp@kJhB}UfAuNnD_f@hM}bBfXypDp@}IbB}V~Cya@vAoRlAaOlG_{@l@qHbAyLd@cG`]spEPkCNkCLmCBeAFmC?eA?kC?eAEkCKkCEeAQiCSgCWiCg@kEy@oGO}A_Fa`@M_AKk@u@cGeJus@I{@iIso@aX_uBs@qFSaB}CcTeAqEiAmC}A_CyAuAcBcA}mDuaAqGqAgEAcEp@waA|[wHfBiGn@kbBnLgGLqGk@sF{Acf@kQaGkCyuBumA{EmDiFaGeeBc{CgVcf@}FcNev@kuBmEoKmDmGeaAq}AcCiEwB}E_DsKcB_K}m@gqEcC}Iio@ukBwC}GwEwGuEyDgnBwgAqJwHaOoL{ByBkCsDkl@spAeyCuqFab@}z@kR}\\sFsKeRwb@oCaIu@wDo@uGIoSa@kImAsH_CcHkaKwhT_HaM_M}OkxCqbDuF}EiGaDgEkAuFm@awCmJ}CP{DbAuZ`PeDl@cCE}AYuB}@_CoBuAmBqAwC{Moj@Kc@iP}v@quAkoGcN{`AgKkq@wq@cgEul@_xDeUkaDsfAofPsYueDcHw~@y`A{eLwAoIySsy@_Ly_@{Igc@_G}KwE_RuBqIkG}UoAuH",
+              "length": 538
+            },
+            "trips": [
+              {
+                "activeDates": [
+                  "20251130",
+                  "20250928",
+                  "20251012",
+                  "20251026",
+                  "20251109",
+                  "20251123",
+                  "20251207",
+                  "20251005",
+                  "20251019",
+                  "20251102",
+                  "20251116"
+                ]
+              }
+            ],
+            "stops": [
+              {
+                "code": null,
+                "id": "1:005504895_0",
+                "lat": 46.833056,
+                "lon": 16.848333,
+                "name": "Zalaegerszeg",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.848333,
+                      46.833056
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005505371_0",
+                "lat": 46.8875,
+                "lon": 16.909444,
+                "name": "Zalaszentiván",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.909444,
+                      46.8875
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:004305314_0",
+                "lat": 47.056944,
+                "lon": 16.800278,
+                "name": "Vasvár",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.800278,
+                      47.056944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:004302246_0",
+                "lat": 47.237778,
+                "lon": 16.6325,
+                "name": "Szombathely",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.6325,
+                      47.237778
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:004302436_0",
+                "lat": 47.418889,
+                "lon": 17.008889,
+                "name": "Répcelak",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.008889,
+                      47.418889
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005502576_0",
+                "lat": 47.601944,
+                "lon": 17.248889,
+                "name": "Csorna",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.248889,
+                      47.601944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005501289_0",
+                "lat": 47.681944,
+                "lon": 17.634722,
+                "name": "Győr",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.634722,
+                      47.681944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "B0CB1F",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              }
+            ],
+            "tripsForDate": [],
+            "alerts": [],
+            "vehiclePositions": []
+          },
+          {
+            "id": "UGF0dGVybjoxOjI0MzEuOjowMw",
+            "headsign": "Győr",
+            "fromStopName": "Szombathely",
+            "name": "<span class=\"MNR2007\">&#484;</span> to Győr (1:005501289_0) from Szombathely (1:004302246_0)",
+            "patternGeometry": {
+              "points": "kci_HuqodBcc@jNm@Ns@Ls@HY@u@@u@C]C}@O_@G{@Y}@a@y@g@w@m@q@q@WYk@u@e@w@u@wAo@_B[eAYkAKg@UuAS{AK_BGaBAgB?s@FgBRaDjBaVdJ{mAp@kJhB}UfAuNnD_f@hM}bBfXypDp@}IbB}V~Cya@vAoRlAaOlG_{@l@qHbAyLd@cG`]spEPkCNkCLmCBeAFmC?eA?kC?eAEkCKkCEeAQiCSgCWiCg@kEy@oGO}A_Fa`@M_AKk@u@cGeJus@I{@iIso@aX_uBs@qFSaB}CcTeAqEiAmC}A_CyAuAcBcA}mDuaAqGqAgEAcEp@waA|[wHfBiGn@kbBnLgGLqGk@sF{Acf@kQaGkCyuBumA{EmDiFaGeeBc{CgVcf@}FcNev@kuBmEoKmDmGeaAq}AcCiEwB}E_DsKcB_K}m@gqEcC}Iio@ukBwC}GwEwGuEyDgnBwgAqJwHaOoL{ByBkCsDkl@spAeyCuqFab@}z@kR}\\sFsKeRwb@oCaIu@wDo@uGIoSa@kImAsH_CcHkaKwhT_HaM_M}OkxCqbDuF}EiGaDgEkAuFm@awCmJ}CP{DbAuZ`PeDl@cCE}AYuB}@_CoBuAmBqAwC{Moj@Kc@iP}v@quAkoGcN{`AgKkq@wq@cgEul@_xDeUkaDsfAofPsYueDcHw~@y`A{eLwAoIySsy@_Ly_@{Igc@_G}KwE_RuBqIkG}UoAuH",
+              "length": 175
+            },
+            "trips": [
+              {
+                "activeDates": [
+                  "20250914",
+                  "20250907",
+                  "20250921"
+                ]
+              }
+            ],
+            "stops": [
+              {
+                "code": null,
+                "id": "1:004302246_0",
+                "lat": 47.237778,
+                "lon": 16.6325,
+                "name": "Szombathely",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      16.6325,
+                      47.237778
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "C82227",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:004302436_0",
+                "lat": 47.418889,
+                "lon": 17.008889,
+                "name": "Répcelak",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.008889,
+                      47.418889
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005502576_0",
+                "lat": 47.601944,
+                "lon": 17.248889,
+                "name": "Csorna",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.248889,
+                      47.601944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              },
+              {
+                "code": null,
+                "id": "1:005501289_0",
+                "lat": 47.681944,
+                "lon": 17.634722,
+                "name": "Győr",
+                "locationType": "STOP",
+                "geometries": {
+                  "geoJson": {
+                    "type": "Point",
+                    "coordinates": [
+                      17.634722,
+                      47.681944
+                    ]
+                  }
+                },
+                "routes": [
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "B0CB1F",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "29803C",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "00A0E3",
+                    "color": "FEFEFE"
+                  },
+                  {
+                    "textColor": "274F96",
+                    "color": "FEFEFE"
+                  }
+                ],
+                "alerts": []
+              }
+            ],
+            "tripsForDate": [],
+            "alerts": [],
+            "vehiclePositions": []
+          }
+        ]
+      }
+    }
+  }

@@ -6,6 +6,7 @@ A clean, modular scraper for fetching MÁV train data and analyzing delays.
 import requests
 import json
 import random
+import socket
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple
 import os
@@ -33,6 +34,12 @@ class MAVScraper:
         # Create a session for cookie persistence and connection reuse
         self.session = requests.Session()
         
+        # Set aggressive timeouts at session level
+        # # Remove socket_options argument for compatibility with older requests versions
+        # adapter = requests.adapters.HTTPAdapter()
+        # self.session.mount("https://", adapter)
+        # self.session.mount("http://", adapter)
+        
         # Set realistic browser headers to mask the request
         self.user_agents = [
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
@@ -45,7 +52,8 @@ class MAVScraper:
         # Set realistic headers that rotate
         self._update_headers()
         
-        self.timeout = 15
+        # Set reasonable timeout for MAV API requests (fail fast if hanging)
+        self.timeout = 180
         
         # Initialize logging
         self.enable_logging = enable_logging and MAVCallLogger is not None
@@ -182,9 +190,9 @@ class MAVScraper:
             response = self.session.post(
                 self.base_url,
                 json=payload,
-                timeout=self.timeout
+                timeout=self.timeout  # Simple timeout - both connect and read
             )
-            
+            print(response)
             status_code = response.status_code
             call_end_time = datetime.now()
             
@@ -193,7 +201,7 @@ class MAVScraper:
                 response_data = data
                 routes_found = len(data.get('route', []))
                 success = True
-                print(f"✅ Successfully fetched {routes_found} routes")
+                print(f" Successfully fetched {routes_found} routes")
                 
                 # Log successful call
                 self._log_api_call(
@@ -208,7 +216,7 @@ class MAVScraper:
                 return True, data
             else:
                 error_message = f"HTTP {response.status_code}: {response.text[:200]}"
-                print(f"❌ API returned status code {response.status_code}")
+                print(f" API returned status code {response.status_code}")
                 print(f"Response: {response.text[:200]}...")
                 
                 # Log failed call
@@ -223,10 +231,25 @@ class MAVScraper:
                 
                 return False, {}
                 
+        except requests.exceptions.Timeout as e:
+            call_end_time = datetime.now()
+            error_message = f"Request timeout after {self.timeout}s: {str(e)}"
+            print(f" Request timed out after {self.timeout} seconds - moving to next pair")
+            print(error_message)
+            self._log_api_call(
+                call_start_time, call_end_time,
+                start_station, start_station_name,
+                end_station, end_station_name,
+                travel_date or datetime.now().strftime("%Y-%m-%d"),
+                start_time, success, routes_found,
+                status_code, error_message, response_data
+            )
+            
+            return False, {}
         except requests.exceptions.RequestException as e:
             call_end_time = datetime.now()
             error_message = f"Network error: {str(e)}"
-            print(f"❌ Network error: {e}")
+            print(f" Network error: {e}")
             
             self._log_api_call(
                 call_start_time, call_end_time,
@@ -241,7 +264,7 @@ class MAVScraper:
         except json.JSONDecodeError as e:
             call_end_time = datetime.now()
             error_message = f"JSON decode error: {str(e)}"
-            print(f"❌ JSON decode error: {e}")
+            print(f" JSON decode error: {e}")
             
             self._log_api_call(
                 call_start_time, call_end_time,
@@ -256,7 +279,7 @@ class MAVScraper:
         except Exception as e:
             call_end_time = datetime.now()
             error_message = f"Unexpected error: {str(e)}"
-            print(f"❌ Unexpected error: {e}")
+            print(f" Unexpected error: {e}")
             
             self._log_api_call(
                 call_start_time, call_end_time,
@@ -504,11 +527,15 @@ class MAVScraper:
             travel_classes = route.get('travelClasses', [])
             if travel_classes:
                 # Try to get 2nd class price first, fall back to any available
-                second_class = next((tc for tc in travel_classes if tc.get('name') == '2'), None)
+                second_class = next((tc for tc in travel_classes if tc and tc.get('name') == '2'), None)
                 if second_class:
-                    price_huf = second_class.get('price', {}).get('amount')
+                    price_obj = second_class.get('price')
+                    if price_obj and isinstance(price_obj, dict):
+                        price_huf = price_obj.get('amount')
                 elif travel_classes:
-                    price_huf = travel_classes[0].get('price', {}).get('amount')
+                    price_obj = travel_classes[0].get('price') if travel_classes[0] else None
+                    if price_obj and isinstance(price_obj, dict):
+                        price_huf = price_obj.get('amount')
             
             # Extract route services (like seat reservation requirements)
             services = []
@@ -516,9 +543,12 @@ class MAVScraper:
             for service in route_services:
                 services.append(service.get('description', ''))
             
-            # Extract tracks
-            dep_track = route.get('departureTrack', {}).get('changedTrackName', '')
-            arr_track = route.get('arrivalTrack', {}).get('changedTrackName', '')
+            # Extract tracks with null safety
+            dep_track_obj = route.get('departureTrack')
+            dep_track = dep_track_obj.get('changedTrackName', '') if dep_track_obj and isinstance(dep_track_obj, dict) else ''
+            
+            arr_track_obj = route.get('arrivalTrack')
+            arr_track = arr_track_obj.get('changedTrackName', '') if arr_track_obj and isinstance(arr_track_obj, dict) else ''
             
             # Get intermediate stations and route segments
             route_segments = self.parse_route_segments(route)
@@ -1054,9 +1084,9 @@ def main():
     )
     
     if results['success']:
-        print("\n✅ Scraping completed successfully!")
+        print("\n Scraping completed successfully!")
     else:
-        print(f"\n❌ Scraping failed: {results.get('error', 'Unknown error')}")
+        print(f"\n Scraping failed: {results.get('error', 'Unknown error')}")
 
 
 if __name__ == "__main__":

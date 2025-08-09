@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS Proxy</title>
+</head>
+<body>
+    <script>
+        // Simple CORS proxy using iframe and postMessage
+        class CORSProxy {
+            constructor() {
+                this.iframe = null;
+                this.callbacks = new Map();
+                this.callbackId = 0;
+                this.init();
+            }
+
+            init() {
+                // Create hidden iframe
+                this.iframe = document.createElement('iframe');
+                this.iframe.style.display = 'none';
+                this.iframe.src = 'data:text/html,<html><body><script>window.parent.postMessage({type:"ready"},"*");</script></body></html>';
+                document.body.appendChild(this.iframe);
+
+                // Listen for messages from iframe
+                window.addEventListener('message', (event) => {
+                    if (event.data.type === 'ready') {
+                        console.log('CORS Proxy ready');
+                    } else if (event.data.type === 'response') {
+                        const callback = this.callbacks.get(event.data.id);
+                        if (callback) {
+                            callback(event.data.data);
+                            this.callbacks.delete(event.data.id);
+                        }
+                    }
+                });
+            }
+
+            async fetch(url) {
+                return new Promise((resolve, reject) => {
+                    const id = ++this.callbackId;
+                    this.callbacks.set(id, resolve);
+                    
+                    // Send fetch request through iframe
+                    this.iframe.contentWindow.postMessage({
+                        type: 'fetch',
+                        id: id,
+                        url: url
+                    }, '*');
+                });
+            }
+        }
+
+        // Initialize proxy
+        window.corsProxy = new CORSProxy();
+    </script>
+</body>
+</html> 

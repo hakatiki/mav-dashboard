@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "package.json",
+      "package-lock.json",
+      "proxy_server.js",
+      "CORS_SOLUTION.md",
+      "DATA_DOCUMENTATION.md",
+      "README.md"
+    ]
+  }
+}

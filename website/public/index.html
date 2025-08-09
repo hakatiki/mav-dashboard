@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <base href="./">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Title and Description -->
+    <title>MÁV Monitor - Vonatforgalmi Jelentések</title>
+    <meta name="description" content="Magyar vasútforgalmi adatok és késések elemzése. Valós idejű MÁV vonat késések, jegyárak és teljesítmény statisztikák vizualizációja.">
+    <meta name="keywords" content="MÁV, vonat, késés, vasút, közlekedés, Magyarország, statisztika, elemzés, dashboard">
+    <meta name="author" content="Takáts Bálint & AlfaGPT">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/android-chrome-192x192.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alfagpt.hu/mav-monitor/">
+    <meta property="og:title" content="MÁV Monitor - Magyar Vasútforgalmi Dashboard">
+    <meta property="og:description" content="Interaktív dashboard a magyar vasúti közlekedés elemzésére. Valós idejű késések, árak és teljesítmény statisztikák a MÁV hálózatról.">
+    <meta property="og:image" content="images/image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MÁV Monitor Dashboard Screenshot">
+    <meta property="og:site_name" content="MÁV Monitor">
+    <meta property="og:locale" content="hu_HU">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://alfagpt.hu/mav-monitor/">
+    <meta property="twitter:title" content="MÁV Monitor - Magyar Vasútforgalmi Dashboard">
+    <meta property="twitter:description" content="Interaktív dashboard a magyar vasúti közlekedés elemzésére. Valós idejű késések, árak és teljesítmény statisztikák.">
+    <meta property="twitter:image" content="images/image.png">
+    <meta property="twitter:image:alt" content="MÁV Monitor Dashboard Screenshot">
+    
+    <!-- Additional Meta -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Hungarian">
+    <meta name="theme-color" content="#1e40af">
+    <meta name="msapplication-TileColor" content="#1e40af">
+    <meta name="application-name" content="MÁV Monitor">
+    
+    <!-- Tailwind CSS - Using CDN for development, should be replaced with local build for production -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                    colors: {
+                        'mav-navy': '#1e3a8a',
+                        'mav-blue': '#1e40af',
+                        'mav-light': '#3b82f6',
+                        'mav-accent': '#60a5fa',
+                        'mav-success': '#10b981',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.3s ease-out',
+                        'pulse-soft': 'pulseSoft 2s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(10px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        pulseSoft: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0.8' },
+                        }
+                    },
+                    backdropBlur: {
+                        xs: '2px',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
+    
+    <!-- Firebase Configuration -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDBaRz4uqCRT89NAwbmOiIJffGtwEr1xw8",
+            authDomain: "mav-monitor.firebaseapp.com",
+            projectId: "mav-monitor",
+            storageBucket: "mav-monitor.firebasestorage.app",
+            messagingSenderId: "577017812350",
+            appId: "1:577017812350:web:ed9da83c134411daddcf2f",
+            measurementId: "G-0E1J0H4T75"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        
+        /* Glass morphism effect */
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        .glass-dark {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        /* Smooth transitions */
+        .transition-smooth {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Card hover effects */
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Gradient text */
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* Loading animation */
+        .loader-modern {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #f3f4f6;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        /* Legacy loader class for compatibility */
+        .loader {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #f3f4f6;
+            border-top: 2px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Responsive utilities */
+        @media (max-width: 640px) {
+            .mobile-card {
+                border-radius: 0.75rem;
+            }
+        }
+        
+        /* Smooth number transitions */
+        .number-transition {
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Focus states */
+        .focus-visible:focus {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+        
+        /* Skeleton loading */
+        .skeleton {
+            background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+        
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        
+        /* Map toggle buttons */
+        .map-toggle-btn {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .map-toggle-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .map-toggle-btn:active::before {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 text-slate-900 min-h-screen">
+    
+    <!-- Modern Header with Glass Effect -->
+    <header class="sticky top-0 z-50 glass border-b border-white/20 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center py-4 gap-4">
+                <!-- Logo and Title -->
+                <div class="flex items-center gap-3">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl blur-lg opacity-50"></div>
+                        <img src="images/android-chrome-192x192.png" alt="MÁV Monitor" class="relative w-10 h-10 rounded-xl shadow-md">
+                    </div>
+                    <div>
+                        <h1 class="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                            MÁV Monitor
+                        </h1>
+                        <p class="text-xs text-slate-500 hidden sm:block">Valós idejű vasúti analitika</p>
+                    </div>
+                </div>
+                
+                <!-- Date Picker Section -->
+                <div class="flex items-center gap-3 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-xl border border-white/60 shadow-sm">
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    <input type="text" id="date-picker" 
+                           class="bg-transparent border-none outline-none text-sm font-medium text-slate-700 placeholder-slate-400 w-32"
+                           placeholder="Válassz dátumot">
+                    <button id="load-data" 
+                            class="px-4 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-sm hover:shadow-md">
+                        Betöltés
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Status Bar - Minimal and Clean -->
+    <div id="status-bar" class="bg-white/80 backdrop-blur-sm border-b border-slate-200/50 py-2 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-3">
+                <div class="loader w-5 h-5" style="display: none;"></div>
+                <span class="status-text text-sm text-slate-600">Adatok betöltése...</span>
+                <span id="date-banner" class="ml-auto text-sm text-slate-500"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+        
+        <!-- KPI Cards - Modern Gradient Design -->
+        <section class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Total Routes Card -->
+            <div class="group relative bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden card-hover summary-card">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
+                <div class="relative">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-2xl">📊</span>
+                        <span class="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Összesen</span>
+                    </div>
+                    <div class="text-2xl sm:text-3xl font-bold text-slate-800 number-transition" id="total-routes">-</div>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">elemzett útvonal</p>
+                </div>
+            </div>
+
+            <!-- Average Delay Card -->
+            <div class="group relative bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden card-hover summary-card">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-amber-400/20 to-orange-400/20 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
+                <div class="relative">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-2xl">⏱️</span>
+                        <span class="text-xs font-medium text-amber-600 bg-amber-50 px-2 py-1 rounded-full">Átlag</span>
+                    </div>
+                    <div class="text-2xl sm:text-3xl font-bold text-slate-800 number-transition" id="avg-delay">-</div>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">perc késés</p>
+                </div>
+            </div>
+
+            <!-- On-time Percentage Card -->
+            <div class="group relative bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden card-hover summary-card">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-emerald-400/20 to-teal-400/20 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
+                <div class="relative">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-2xl">✅</span>
+                        <span class="text-xs font-medium text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">Időben érkezők</span>
+                    </div>
+                    <div class="text-2xl sm:text-3xl font-bold text-slate-800 number-transition" id="ontime-percentage">-</div>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">a járatokból</p>
+                </div>
+            </div>
+
+            <!-- Max Delay Card -->
+            <div class="group relative bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden card-hover summary-card">
+                <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-red-400/20 to-pink-400/20 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
+                <div class="relative">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-2xl">🚨</span>
+                        <span class="text-xs font-medium text-red-600 bg-red-50 px-2 py-1 rounded-full">Maximum</span>
+                    </div>
+                    <div class="text-2xl sm:text-3xl font-bold text-slate-800 number-transition" id="max-delay">-</div>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-1">perc késés</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Analysis Section -->
+        <section class="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <div class="bg-gradient-to-r from-slate-50 to-blue-50 px-6 py-4 border-b border-slate-100">
+                <h2 class="text-lg font-semibold text-slate-800 flex items-center gap-2">
+                    <span class="text-xl">📈</span>
+                    Részletes elemzés
+                </h2>
+                <p class="text-sm text-slate-500 mt-1">Legproblémásabb útvonalak és teljesítmény mutatók</p>
+            </div>
+            
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Delayed Routes -->
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-2 pb-3 border-b border-slate-100">
+                            <div class="w-1 h-6 bg-gradient-to-b from-red-400 to-red-600 rounded-full"></div>
+                            <h3 class="font-semibold text-slate-700">Legtöbbet késő útvonalak</h3>
+                        </div>
+                        <div id="delayed-routes" class="space-y-3">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Expensive Routes -->
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-2 pb-3 border-b border-slate-100">
+                            <div class="w-1 h-6 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full"></div>
+                            <h3 class="font-semibold text-slate-700">Legdrágább útvonalak</h3>
+                        </div>
+                        <div id="expensive-routes" class="space-y-3">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Performance Metrics -->
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-2 pb-3 border-b border-slate-100">
+                            <div class="w-1 h-6 bg-gradient-to-b from-emerald-400 to-emerald-600 rounded-full"></div>
+                            <h3 class="font-semibold text-slate-700">Teljesítmény mutatók</h3>
+                        </div>
+                        <div id="performance-metrics" class="space-y-3">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section - Clean and Modern -->
+        <section class="bg-white rounded-none sm:rounded-2xl shadow-sm overflow-hidden -mx-4 sm:mx-0">
+            <div class="px-6 py-4 border-b border-slate-100">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="text-lg font-semibold text-slate-800 flex items-center gap-2">
+                            <span class="text-xl">🗺️</span>
+                            Vonalhálózat térkép
+                        </h2>
+                        <p class="text-sm text-slate-500 mt-1">Késések vizualizációja a magyar vasúthálózaton</p>
+                    </div>
+                    
+                    <!-- Map Toggle Buttons -->
+                    <div class="flex gap-1 p-1 bg-slate-100 rounded-lg">
+                        <button id="avg-delay-btn" class="map-toggle-btn px-3 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm font-medium rounded-md text-slate-600 hover:bg-white/50 transition-all duration-200">
+                            Átlagos késések
+                        </button>
+                        <button id="max-delay-btn" class="map-toggle-btn px-3 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm font-medium rounded-md bg-white text-slate-700 shadow-sm transition-all duration-200">
+                            Maximum késések
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row">
+                <div class="flex-1 h-[105dvh] sm:h-[480px] lg:h-[600px] relative bg-slate-50" id="map-container">
+                    <iframe id="map-frame" src="" frameborder="0" class="w-full h-full"></iframe>
+                </div>
+                <div class="lg:w-64 p-4 bg-gradient-to-b from-slate-50 to-white border-t lg:border-t-0 lg:border-l border-slate-100" id="map-legend">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section - Clean Grid -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Delay Distribution Chart -->
+            <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+                <div class="px-6 py-4 border-b border-slate-100">
+                    <h3 class="font-semibold text-slate-800 flex items-center gap-2">
+                        <span>📊</span>
+                        Késések eloszlása
+                    </h3>
+                    <p class="text-sm text-slate-500 mt-1">Vonatok késése percekben</p>
+                </div>
+                <div class="p-6">
+                    <div class="h-64 lg:h-80">
+                        <canvas id="delay-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Price Distribution Chart -->
+            <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+                <div class="px-6 py-4 border-b border-slate-100">
+                    <h3 class="font-semibold text-slate-800 flex items-center gap-2">
+                        <span>💰</span>
+                        Jegyárak eloszlása
+                    </h3>
+                    <p class="text-sm text-slate-500 mt-1">Útvonalak áreloszlása</p>
+                </div>
+                <div class="p-6">
+                    <div class="h-64 lg:h-80">
+                        <canvas id="price-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article Cards - Modern Blog Style -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- MÁV Article -->
+            <article class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <a href="https://alfagpt.hu/article/mav" target="_blank" class="block">
+                    <div class="aspect-video overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100">
+                        <img src="https://storage.googleapis.com/mpt-all-sources/blog/ner/orban.png" alt="MÁV Article" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-xs text-slate-500 mb-3">
+                            <time>2025-07-30</time>
+                            <span>•</span>
+                            <span>Takáts Bálint</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">
+                            A User's Guide to Restructuring the Hungarian State Railways
+                        </h3>
+                        <p class="text-sm text-slate-600 line-clamp-3">
+                            Részletes elemzés a magyar vasúthálózatról és a MÁV jövőjéről. Kattints ide a teljes cikk elolvasásához.
+                        </p>
+                        <div class="mt-4 flex items-center text-blue-600 text-sm font-medium">
+                            <span>Tovább olvasom</span>
+                            <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <!-- NER Article -->
+            <article class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <a href="https://alfagpt.hu/article/ner" target="_blank" class="block">
+                    <div class="aspect-video overflow-hidden bg-gradient-to-br from-orange-100 to-red-100">
+                        <img src="https://storage.googleapis.com/mpt-all-sources/blog/mav/lazar.png" alt="NER Article" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-xs text-slate-500 mb-3">
+                            <time>2025-07-25</time>
+                            <span>•</span>
+                            <span>Takáts Bálint</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">
+                            Korrupció Magyarországon
+                        </h3>
+                        <p class="text-sm text-slate-600 line-clamp-3">
+                            A korrupció mindannyiunk életére és a gazdaságra is rányomja a bélyegét, mégis nehéz kézzelfogható bizonyítékot találni rá.
+                        </p>
+                        <div class="mt-4 flex items-center text-blue-600 text-sm font-medium">
+                            <span>Tovább olvasom</span>
+                            <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer - Clean and Minimal -->
+    <footer class="mt-16 bg-gradient-to-b from-slate-50 to-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="text-center space-y-2">
+                <p class="text-sm text-slate-600">
+                    © 2025 MÁV Monitor • Adatok: Magyar Államvasutak Zrt.
+                </p>
+                <p class="text-xs text-slate-500">
+                    Nem hivatalos elemzési eszköz • Készítette: Takáts Bálint & AlfaGPT
+                </p>
+                <div class="pt-2">
+                    <a href="DATA_DOCUMENTATION.md" target="_blank" 
+                       class="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700 transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        Adat dokumentáció
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

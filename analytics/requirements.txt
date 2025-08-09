@@ -1,0 +1,5 @@
+pandas
+folium
+numpy
+google-cloud-storage
+pathlib 

@@ -1,0 +1,21 @@
+{
+  "name": "mav-monitor-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy server for MÁV Monitor dashboard",
+  "main": "proxy_server.js",
+  "scripts": {
+    "start": "node proxy_server.js",
+    "dev": "nodemon proxy_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["mav", "monitor", "cors", "proxy"],
+  "author": "Takáts Bálint",
+  "license": "MIT"
+} 

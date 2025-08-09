@@ -1,0 +1,1106 @@
+2025-07-28 14:51:03,827 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 14:51:04,349 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:05,838 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:12,067 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:13,500 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:15,191 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:17,460 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:19,446 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:51:31,035 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:31,907 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 14:51:32,783 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:35,665 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:45,108 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:47,513 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:49,149 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:51:50,931 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:23,969 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-28 14:56:23,969 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-28 14:56:25,900 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 14:56:26,273 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:27,474 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:29,597 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:31,976 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:32,702 - INFO - Uploading files from 2025-07-28
+2025-07-28 14:56:32,702 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 14:56:46,057 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 14:56:47,328 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:48,955 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:50,333 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 14:56:51,959 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:56:53,522 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 14:56:54,199 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:56:55,741 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 14:56:56,700 - INFO - Uploading files from 2025-07-28
+2025-07-28 14:56:56,700 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 14:57:10,755 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 16:23:48,568 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-28 16:23:48,568 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-28 16:23:49,845 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 16:23:50,677 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:23:52,332 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:23:54,655 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:23:57,134 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:23:58,098 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:23:59,792 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:24:01,163 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:24:03,067 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:05,244 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 16:24:06,743 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:08,690 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:11,237 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:12,719 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:14,423 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 16:24:15,767 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 16:24:16,369 - INFO - Uploading files from 2025-07-28
+2025-07-28 16:24:16,369 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 16:28:17,595 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-28 16:28:17,596 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-28 16:28:45,942 - INFO - Uploading files from 2025-07-28
+2025-07-28 16:28:57,388 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:21:32,059 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-28 17:21:32,059 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-28 17:22:00,835 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:22:15,989 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:23:35,177 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:23:44,768 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:25:12,334 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:25:25,361 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:26:40,630 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:26:54,273 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:28:10,348 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:28:27,177 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:28:45,389 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:28:59,286 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:29:26,317 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:29:44,571 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:30:45,647 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:30:58,940 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:33:53,565 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:34:13,200 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 17:37:10,835 - INFO - Uploading files from 2025-07-28
+2025-07-28 17:37:38,709 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:14:01,084 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-28 18:14:01,085 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-28 18:14:02,192 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 18:14:02,587 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:04,830 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:07,071 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:09,830 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:12,446 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:15,065 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:17,835 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:23,028 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:24,427 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-28 18:14:25,307 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:28,337 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:30,937 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:33,040 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:34,545 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:36,405 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:37,692 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:14:37,692 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:14:50,863 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:14:51,497 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:14:54,593 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:57,131 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:14:59,707 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:03,177 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:05,116 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:07,454 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:11,880 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:14,641 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:16,606 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:18,855 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:20,130 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:21,707 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:25,916 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:28,882 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:31,484 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:35,747 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:39,119 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:42,964 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:47,958 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:51,603 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:54,517 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:15:59,328 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:01,300 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:03,842 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:13,764 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:16,686 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:18,939 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:20,897 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:16:20,897 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:16:39,558 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:16:41,884 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:44,761 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:47,191 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:50,389 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:52,171 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:54,218 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:57,445 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:16:59,779 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:01,750 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:04,592 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:06,426 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:08,404 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:13,175 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:16,154 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:18,999 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:22,140 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:23,761 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:25,661 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:29,535 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:32,457 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:34,190 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:36,991 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:39,031 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:41,162 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:53,611 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:17:59,413 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:05,309 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:09,779 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:11,637 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:13,477 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:14,644 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:18:14,644 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:18:28,620 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:18:31,385 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:33,026 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:35,963 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:39,601 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:42,046 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:45,065 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:48,489 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:50,165 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:52,768 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:18:56,948 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:00,259 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:03,978 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:08,163 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:11,237 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:14,686 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:17,897 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:20,272 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:22,638 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:24,144 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:19:25,652 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:19:28,903 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:31,083 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:34,348 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:45,588 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:48,284 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:51,304 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:19:52,528 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:19:52,528 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:20:27,093 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:20:29,236 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:31,261 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:33,853 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:38,646 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:42,981 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:48,494 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:51,554 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:55,279 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:20:58,090 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:01,161 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:03,812 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:05,797 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:11,508 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:17,764 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:22,160 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:27,067 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:29,192 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:32,033 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:42,887 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:45,427 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:47,489 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:50,212 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:53,924 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:21:58,780 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 18:22:04,506 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:22:07,114 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:22:07,760 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:22:07,760 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:24:13,878 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:24:15,860 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 18:24:16,477 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:18,356 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:20,083 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:22,432 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:24,841 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:27,575 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:29,764 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:36,322 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:38,988 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:40,912 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:24:42,078 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:24:42,079 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:26:32,827 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:26:33,772 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:37,056 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:39,455 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:41,643 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:43,875 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:45,741 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:48,267 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:50,706 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:53,879 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:56,600 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:26:57,983 - INFO - Uploading files from 2025-07-28
+2025-07-28 18:26:57,984 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 18:27:31,194 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 18:27:32,093 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:34,742 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:39,133 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:41,042 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:43,111 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:45,639 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:27:47,469 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 18:57:21,893 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 18:57:24,609 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-28 21:45:50,521 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-28 21:45:51,285 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:45:51,286 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:45:59,102 - ERROR - Failed to upload directory contents json_output\2025-07-28: ERROR: (gcloud.storage.cp) There was a problem refreshing your current auth tokens: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FCBAD402C0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+2025-07-28 21:46:01,098 - DEBUG - Starting new HTTPS connection (4): jegy-a.mav.hu:443
+2025-07-28 21:46:03,532 - DEBUG - Starting new HTTPS connection (5): jegy-a.mav.hu:443
+2025-07-28 21:46:05,538 - DEBUG - Starting new HTTPS connection (6): jegy-a.mav.hu:443
+2025-07-28 21:46:08,257 - DEBUG - Starting new HTTPS connection (7): jegy-a.mav.hu:443
+2025-07-28 21:46:23,474 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:46:25,751 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 21:46:37,537 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:46:53,757 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:46:57,485 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:46:59,802 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:01,774 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:05,329 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:06,869 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:09,067 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:14,772 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:19,620 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:24,908 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:30,127 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:33,252 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:36,557 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:41,072 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:44,506 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:47,782 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:52,013 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:55,351 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:58,065 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:47:58,902 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:47:58,903 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:48:10,447 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:48:13,761 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:16,272 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:18,747 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:22,150 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:24,623 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:27,444 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:31,348 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:35,300 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:37,753 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:43,687 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:48,242 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:48:51,984 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:02,612 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:09,356 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:12,530 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:24,391 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:26,898 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:31,491 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:46,973 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:49:55,923 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:00,945 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:06,360 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:14,037 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:20,611 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:24,087 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:26,546 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:28,691 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:32,503 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:33,734 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:35,776 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:37,320 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:50:37,320 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:50:49,591 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:50:52,428 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:55,879 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:50:59,977 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:07,870 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:12,599 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:18,251 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:24,799 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:31,643 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:37,637 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:42,164 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:43,731 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:45,394 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:52,891 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:51:58,802 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:03,826 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:11,439 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:15,520 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:19,178 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:21,547 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:52:23,542 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:52:29,276 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:31,607 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:35,148 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:40,344 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:46,229 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:49,058 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:52:49,936 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:52:49,936 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:53:03,034 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:53:07,020 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:10,837 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:14,397 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:17,776 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:20,214 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:21,853 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:32,438 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:40,558 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:49,424 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:52,819 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:54,923 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:53:57,264 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:02,794 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:05,835 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:09,726 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:13,953 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:16,047 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:20,287 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:23,493 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:26,155 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:27,856 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:34,366 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:38,419 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:43,743 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:50,832 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:54:58,517 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:05,536 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:12,150 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:19,520 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:22,498 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:23,459 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:55:23,459 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:55:34,813 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:55:38,532 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:42,895 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:45,091 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:47,619 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:50,022 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:52,509 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:56,010 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:55:58,810 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:56:03,670 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:56:05,218 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:07,668 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:10,236 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:13,151 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:15,095 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:17,062 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:19,931 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 21:56:21,118 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:56:21,118 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:56:32,561 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:56:34,510 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:56:36,542 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:56:38,370 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:57:04,770 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:57:31,805 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:57:58,855 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:03,684 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:05,660 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:08,235 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:17,838 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:26,669 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:35,158 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:44,126 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:45,792 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:47,595 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:50,141 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:52,490 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:53,887 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:57,654 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:58:59,744 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:01,667 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:05,816 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:09,090 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:11,693 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:16,176 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:18,467 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:20,667 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:24,967 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:26,868 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:29,132 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:30,025 - INFO - Uploading files from 2025-07-28
+2025-07-28 21:59:30,025 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 21:59:41,970 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 21:59:44,625 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:46,483 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:49,023 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:52,292 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:53,474 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 21:59:55,507 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:00,724 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:02,730 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:05,232 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:09,185 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:11,194 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:13,189 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:20,473 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:22,648 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:24,449 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:00:54,583 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:01:23,747 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:01:54,471 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:02:24,588 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:02:55,161 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:03:24,250 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:03:52,065 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:04:34,444 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:06:40,953 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 22:06:43,741 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:06:45,399 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-28 22:06:47,058 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:06:50,013 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:06:59,418 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:01,846 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:03,515 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:04,682 - INFO - Uploading files from 2025-07-28
+2025-07-28 22:07:04,682 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 22:07:18,029 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 22:07:26,298 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:29,187 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:30,947 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:33,746 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:35,090 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:36,512 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:40,063 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:42,637 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:44,528 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:47,550 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:49,530 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:07:51,729 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:01,148 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:13,025 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:24,395 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:29,324 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:31,427 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:33,113 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:08:38,557 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:16:16,199 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 22:16:22,187 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:16:28,924 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:16:31,782 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-28 22:16:34,520 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:16:36,690 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:16:39,509 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:17:15,289 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:17:47,328 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:18:24,499 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:18:59,189 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:19:35,755 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:20:03,925 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:20:04,944 - INFO - Uploading files from 2025-07-28
+2025-07-28 22:20:04,944 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 22:20:21,018 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 22:20:41,986 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:21:04,504 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:21:29,497 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:21:32,837 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:21:35,092 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:22:04,244 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:22:29,332 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:22:50,282 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:22:52,899 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:22:54,312 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:22:55,973 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:23:02,168 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:23:03,510 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:23:05,756 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:23:28,204 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:23:50,470 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:24:10,665 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:24:33,836 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:24:54,315 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:25:18,138 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:25:22,043 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:25:24,298 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:25:25,627 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:25:47,228 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:26:10,173 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:26:32,887 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:26:34,438 - INFO - Uploading files from 2025-07-28
+2025-07-28 22:26:34,438 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 22:26:47,303 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 22:26:49,037 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:26:51,671 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:26:54,945 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:27:03,482 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:27:09,594 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-28 22:27:13,069 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:14,662 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:17,211 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:20,244 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:21,681 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:24,113 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:26,999 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:28,609 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:30,612 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:34,474 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:36,512 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:39,063 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:42,213 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:44,092 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:46,214 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:27:46,967 - INFO - Uploading files from 2025-07-28
+2025-07-28 22:27:46,967 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 22:28:00,181 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 22:28:01,681 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:03,372 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:05,346 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:09,726 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:11,041 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:12,991 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:15,507 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:16,771 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:17,873 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:20,528 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:22,471 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:24,397 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:27,040 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:29,308 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:31,998 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:36,311 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:38,453 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:40,943 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:43,906 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:45,271 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:47,117 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:49,738 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:51,303 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:53,039 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:55,964 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:58,344 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:28:59,693 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:02,316 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:04,682 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:06,271 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:07,764 - INFO - Uploading files from 2025-07-28
+2025-07-28 22:29:07,764 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-28\* gs://mpt-all-sources/blog/mav/json_output/2025-07-28/ --project eti-industries
+2025-07-28 22:29:21,367 - INFO - Successfully uploaded directory contents json_output\2025-07-28/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-28/
+2025-07-28 22:29:23,152 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:24,629 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:26,150 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:29,342 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:31,637 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 22:29:34,149 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-28 23:49:24,475 - DEBUG - Starting new HTTPS connection (8): jegy-a.mav.hu:443
+2025-07-29 11:16:35,171 - DEBUG - Starting new HTTPS connection (9): jegy-a.mav.hu:443
+2025-07-29 11:16:38,206 - DEBUG - Starting new HTTPS connection (10): jegy-a.mav.hu:443
+2025-07-29 11:16:40,565 - DEBUG - Starting new HTTPS connection (11): jegy-a.mav.hu:443
+2025-07-29 11:16:42,799 - DEBUG - Starting new HTTPS connection (12): jegy-a.mav.hu:443
+2025-07-29 11:16:45,866 - DEBUG - Starting new HTTPS connection (13): jegy-a.mav.hu:443
+2025-07-29 11:16:49,039 - DEBUG - Starting new HTTPS connection (14): jegy-a.mav.hu:443
+2025-07-29 11:16:52,386 - DEBUG - Starting new HTTPS connection (15): jegy-a.mav.hu:443
+2025-07-29 11:16:54,272 - DEBUG - Starting new HTTPS connection (16): jegy-a.mav.hu:443
+2025-07-29 11:16:56,001 - DEBUG - Starting new HTTPS connection (17): jegy-a.mav.hu:443
+2025-07-29 11:16:58,488 - DEBUG - Starting new HTTPS connection (18): jegy-a.mav.hu:443
+2025-07-29 11:17:01,376 - DEBUG - Starting new HTTPS connection (19): jegy-a.mav.hu:443
+2025-07-29 11:17:03,592 - DEBUG - Starting new HTTPS connection (20): jegy-a.mav.hu:443
+2025-07-29 11:17:06,058 - DEBUG - Starting new HTTPS connection (21): jegy-a.mav.hu:443
+2025-07-29 11:17:07,703 - DEBUG - Starting new HTTPS connection (22): jegy-a.mav.hu:443
+2025-07-29 11:17:10,629 - DEBUG - Starting new HTTPS connection (23): jegy-a.mav.hu:443
+2025-07-29 11:17:12,865 - DEBUG - Starting new HTTPS connection (24): jegy-a.mav.hu:443
+2025-07-29 11:17:15,365 - DEBUG - Starting new HTTPS connection (25): jegy-a.mav.hu:443
+2025-07-29 11:17:17,475 - DEBUG - Starting new HTTPS connection (26): jegy-a.mav.hu:443
+2025-07-29 11:17:20,714 - DEBUG - Starting new HTTPS connection (27): jegy-a.mav.hu:443
+2025-07-29 11:17:23,754 - DEBUG - Starting new HTTPS connection (28): jegy-a.mav.hu:443
+2025-07-29 11:17:26,261 - DEBUG - Starting new HTTPS connection (29): jegy-a.mav.hu:443
+2025-07-29 11:17:29,104 - DEBUG - Starting new HTTPS connection (30): jegy-a.mav.hu:443
+2025-07-29 11:17:30,834 - DEBUG - Starting new HTTPS connection (31): jegy-a.mav.hu:443
+2025-07-29 11:17:33,622 - DEBUG - Starting new HTTPS connection (32): jegy-a.mav.hu:443
+2025-07-29 11:17:36,289 - DEBUG - Starting new HTTPS connection (33): jegy-a.mav.hu:443
+2025-07-29 11:17:38,092 - DEBUG - Starting new HTTPS connection (34): jegy-a.mav.hu:443
+2025-07-29 11:17:40,905 - DEBUG - Starting new HTTPS connection (35): jegy-a.mav.hu:443
+2025-07-29 11:17:43,341 - DEBUG - Starting new HTTPS connection (36): jegy-a.mav.hu:443
+2025-07-29 11:17:45,788 - DEBUG - Starting new HTTPS connection (37): jegy-a.mav.hu:443
+2025-07-29 11:17:48,193 - DEBUG - Starting new HTTPS connection (38): jegy-a.mav.hu:443
+2025-07-29 11:21:19,524 - DEBUG - Starting new HTTPS connection (39): jegy-a.mav.hu:443
+2025-07-29 11:21:57,304 - DEBUG - Starting new HTTPS connection (40): jegy-a.mav.hu:443
+2025-07-29 11:22:02,562 - DEBUG - Starting new HTTPS connection (41): jegy-a.mav.hu:443
+2025-07-29 11:22:04,947 - DEBUG - Starting new HTTPS connection (42): jegy-a.mav.hu:443
+2025-07-29 11:22:08,076 - DEBUG - Starting new HTTPS connection (43): jegy-a.mav.hu:443
+2025-07-29 11:22:10,281 - DEBUG - Starting new HTTPS connection (44): jegy-a.mav.hu:443
+2025-07-29 11:22:26,168 - DEBUG - Starting new HTTPS connection (45): jegy-a.mav.hu:443
+2025-07-29 11:22:45,010 - DEBUG - Starting new HTTPS connection (46): jegy-a.mav.hu:443
+2025-07-29 11:23:01,148 - DEBUG - Starting new HTTPS connection (47): jegy-a.mav.hu:443
+2025-07-29 11:23:32,219 - DEBUG - Starting new HTTPS connection (48): jegy-a.mav.hu:443
+2025-07-29 11:23:35,547 - DEBUG - Starting new HTTPS connection (49): jegy-a.mav.hu:443
+2025-07-29 11:23:38,691 - DEBUG - Starting new HTTPS connection (50): jegy-a.mav.hu:443
+2025-07-29 11:23:40,742 - DEBUG - Starting new HTTPS connection (51): jegy-a.mav.hu:443
+2025-07-29 11:24:03,694 - DEBUG - Starting new HTTPS connection (52): jegy-a.mav.hu:443
+2025-07-29 11:24:26,634 - DEBUG - Starting new HTTPS connection (53): jegy-a.mav.hu:443
+2025-07-29 11:24:49,182 - DEBUG - Starting new HTTPS connection (54): jegy-a.mav.hu:443
+2025-07-29 11:24:55,729 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:26:10,201 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-29 11:26:11,846 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:26:24,820 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:26:40,586 - INFO - Uploading files from 2025-07-29
+2025-07-29 11:26:40,586 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-29\* gs://mpt-all-sources/blog/mav/json_output/2025-07-29/ --project eti-industries
+2025-07-29 11:27:14,524 - ERROR - Failed to upload directory contents json_output\2025-07-29: ERROR: (gcloud.storage.cp) There was a problem refreshing your current auth tokens: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account, run:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+
+2025-07-29 11:27:25,577 - DEBUG - Starting new HTTPS connection (55): jegy-a.mav.hu:443
+2025-07-29 11:27:31,312 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:28:32,129 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-29 11:28:42,801 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:29:33,698 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-29 11:29:57,539 - DEBUG - Starting new HTTPS connection (56): jegy-a.mav.hu:443
+2025-07-29 11:30:32,247 - DEBUG - Starting new HTTPS connection (57): jegy-a.mav.hu:443
+2025-07-29 11:30:35,261 - DEBUG - Starting new HTTPS connection (58): jegy-a.mav.hu:443
+2025-07-29 11:30:37,608 - DEBUG - Starting new HTTPS connection (59): jegy-a.mav.hu:443
+2025-07-29 11:30:40,293 - DEBUG - Starting new HTTPS connection (60): jegy-a.mav.hu:443
+2025-07-29 11:30:42,581 - DEBUG - Starting new HTTPS connection (61): jegy-a.mav.hu:443
+2025-07-29 11:30:44,437 - INFO - Uploading files from 2025-07-29
+2025-07-29 11:30:44,437 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-29\* gs://mpt-all-sources/blog/mav/json_output/2025-07-29/ --project eti-industries
+2025-07-29 11:31:07,840 - INFO - Successfully uploaded directory contents json_output\2025-07-29/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-29/
+2025-07-29 11:31:09,004 - DEBUG - Starting new HTTPS connection (62): jegy-a.mav.hu:443
+2025-07-29 11:31:12,620 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:31:23,316 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-29 11:31:26,346 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-29 11:32:22,858 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-29 11:33:32,849 - DEBUG - Starting new HTTPS connection (63): jegy-a.mav.hu:443
+2025-07-29 11:34:10,921 - DEBUG - Starting new HTTPS connection (64): jegy-a.mav.hu:443
+2025-07-29 11:34:34,082 - DEBUG - Starting new HTTPS connection (65): jegy-a.mav.hu:443
+2025-07-29 11:34:57,781 - DEBUG - Starting new HTTPS connection (66): jegy-a.mav.hu:443
+2025-07-29 11:35:21,593 - DEBUG - Starting new HTTPS connection (67): jegy-a.mav.hu:443
+2025-07-29 11:35:44,316 - DEBUG - Starting new HTTPS connection (68): jegy-a.mav.hu:443
+2025-07-29 11:36:07,569 - DEBUG - Starting new HTTPS connection (69): jegy-a.mav.hu:443
+2025-07-29 11:36:31,328 - DEBUG - Starting new HTTPS connection (70): jegy-a.mav.hu:443
+2025-07-29 11:36:33,252 - INFO - Uploading files from 2025-07-29
+2025-07-29 11:36:33,252 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-29\* gs://mpt-all-sources/blog/mav/json_output/2025-07-29/ --project eti-industries
+2025-07-29 16:33:15,551 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:33:15,551 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:33:16,171 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:33:40,009 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:34:03,678 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-29 16:34:27,054 - DEBUG - Starting new HTTPS connection (4): jegy-a.mav.hu:443
+2025-07-29 16:34:50,595 - DEBUG - Starting new HTTPS connection (5): jegy-a.mav.hu:443
+2025-07-29 16:35:13,648 - DEBUG - Starting new HTTPS connection (6): jegy-a.mav.hu:443
+2025-07-29 16:35:36,803 - DEBUG - Starting new HTTPS connection (7): jegy-a.mav.hu:443
+2025-07-29 16:36:00,052 - DEBUG - Starting new HTTPS connection (8): jegy-a.mav.hu:443
+2025-07-29 16:36:29,495 - DEBUG - Starting new HTTPS connection (9): jegy-a.mav.hu:443
+2025-07-29 16:39:08,857 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:39:08,857 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:39:10,811 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:39:33,382 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:39:57,389 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-29 16:40:22,776 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:40:22,776 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:40:24,527 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:40:48,763 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:41:12,295 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-29 16:41:38,219 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:41:38,220 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:41:39,003 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:42:02,991 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:42:25,991 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-29 16:43:03,466 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:43:03,466 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:43:05,026 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:43:28,260 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:44:58,784 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:44:58,784 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:44:58,784 - INFO -  Starting bulk scraping...
+2025-07-29 16:44:58,784 - INFO - Incremental uploads enabled every 10 processed pairs
+2025-07-29 16:45:00,345 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:45:23,578 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:46:20,420 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:46:20,420 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:46:20,421 - INFO -  Starting bulk scraping...
+2025-07-29 16:46:20,421 - INFO - Incremental uploads enabled every 10 processed pairs
+2025-07-29 16:46:21,411 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:46:44,542 - DEBUG - Starting new HTTPS connection (2): jegy-a.mav.hu:443
+2025-07-29 16:47:07,871 - DEBUG - Starting new HTTPS connection (3): jegy-a.mav.hu:443
+2025-07-29 16:47:30,832 - DEBUG - Starting new HTTPS connection (4): jegy-a.mav.hu:443
+2025-07-29 16:47:53,267 - INFO -  Total pipeline duration: 0:01:32.846255
+2025-07-29 16:53:07,961 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-29 16:53:07,961 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-29 16:53:07,961 - INFO -  Starting bulk scraping...
+2025-07-29 16:53:07,961 - INFO - Incremental uploads enabled every 10 processed pairs
+2025-07-29 16:53:08,935 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-29 16:53:31,066 - INFO - Total pipeline duration: 0:00:23.105631
+2025-07-30 19:14:08,237 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-30 19:14:08,237 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-30 19:14:08,237 - INFO -  Starting bulk scraping...
+2025-07-30 19:14:08,237 - INFO - Incremental uploads enabled every 10 processed pairs
+2025-07-30 19:14:09,586 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-30 19:14:11,646 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:14:12,897 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-30 19:14:14,063 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:14:16,952 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:14:22,409 - INFO - Total pipeline duration: 0:00:14.171678
+2025-07-30 19:16:10,667 - INFO - gcloud CLI is available and authenticated (using gcloud.cmd)
+2025-07-30 19:16:10,668 - INFO - Cloud uploader initialized for bucket: mpt-all-sources
+2025-07-30 19:16:10,668 - INFO -  Starting bulk scraping...
+2025-07-30 19:16:10,668 - INFO - Incremental uploads enabled every 10 processed pairs
+2025-07-30 19:16:12,548 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-30 19:16:13,759 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:15,972 - DEBUG - Starting new HTTPS connection (1): jegy-a.mav.hu:443
+2025-07-30 19:16:17,237 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:19,177 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:22,729 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:25,848 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:29,416 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:34,751 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:37,214 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:39,693 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:43,507 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:45,076 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:47,030 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:51,328 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:53,696 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:56,828 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:16:59,231 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:01,050 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:03,443 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:05,939 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:08,118 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:08,804 - INFO -  Starting incremental upload #1 at 10/500 processed pairs
+2025-07-30 19:17:08,804 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:17:08,804 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:17:19,833 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:17:19,835 - INFO -  Incremental upload #1 completed: 12/12 files (100.0% success)
+2025-07-30 19:17:21,460 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:23,397 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:28,712 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:30,755 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:33,299 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:36,812 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:39,630 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:42,323 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:43,946 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:46,444 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:17:49,459 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:52,121 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:54,108 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:56,556 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:17:57,766 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:00,449 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:03,399 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:05,161 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:06,676 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:10,414 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:12,719 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:14,307 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:14,919 - INFO -  Starting incremental upload #2 at 20/500 processed pairs
+2025-07-30 19:18:14,920 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:18:14,920 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:18:22,130 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:18:22,131 - INFO -  Incremental upload #2 completed: 24/24 files (100.0% success)
+2025-07-30 19:18:23,820 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:26,640 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:30,210 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:34,860 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:36,956 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:38,974 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:42,733 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:44,931 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:46,780 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:50,639 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:52,445 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:54,823 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:18:59,315 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:00,978 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:03,114 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:05,661 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:07,224 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:08,773 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:12,191 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:13,670 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:14,936 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:17,759 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:18,936 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:20,310 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:23,430 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:25,092 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:27,470 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:31,822 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:34,831 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:36,422 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:36,996 - INFO -  Starting incremental upload #3 at 30/500 processed pairs
+2025-07-30 19:19:36,998 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:19:36,998 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:19:48,090 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:19:48,091 - INFO -  Incremental upload #3 completed: 44/44 files (100.0% success)
+2025-07-30 19:19:49,820 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:51,101 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:53,639 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:57,184 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:19:58,653 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:01,218 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:07,995 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:09,603 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:12,083 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:18,623 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:24,422 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:31,452 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:35,314 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:37,645 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:40,009 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:43,856 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:47,189 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:49,570 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:53,134 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:55,552 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:20:58,089 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:01,456 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:03,849 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:06,166 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:12,864 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:19,662 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:26,142 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:33,933 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:39,800 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:45,936 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:21:47,440 - INFO -  Starting incremental upload #4 at 40/500 processed pairs
+2025-07-30 19:21:47,440 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:21:47,440 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:21:58,333 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:21:58,334 - INFO -  Incremental upload #4 completed: 64/64 files (100.0% success)
+2025-07-30 19:22:00,987 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:03,554 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:06,168 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:08,759 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:22:10,557 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:22:13,790 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:16,288 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:18,877 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:22,975 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:24,115 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:25,667 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:34,934 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:36,694 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:38,672 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:42,288 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:45,901 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:50,099 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:56,703 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:22:58,985 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:00,264 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:03,600 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:06,185 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:07,504 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:12,663 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:17,199 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:21,058 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:22,518 - INFO -  Starting incremental upload #5 at 50/500 processed pairs
+2025-07-30 19:23:22,519 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:23:22,519 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:23:36,875 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:23:36,876 - INFO -  Incremental upload #5 completed: 80/80 files (100.0% success)
+2025-07-30 19:23:39,722 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:42,950 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:44,302 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:47,271 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:49,130 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:50,376 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:53,295 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:56,007 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:57,519 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:23:59,678 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:01,591 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:04,369 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:06,429 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:08,521 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:10,162 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:17,925 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:18,609 - INFO -  Starting incremental upload #6 at 60/500 processed pairs
+2025-07-30 19:24:18,609 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:24:18,609 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:24:30,774 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:24:30,775 - INFO -  Incremental upload #6 completed: 86/86 files (100.0% success)
+2025-07-30 19:24:31,874 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:33,892 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:35,830 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:38,516 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:41,183 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:43,498 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:53,565 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:55,641 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:24:58,882 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:00,527 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:01,309 - INFO -  Starting incremental upload #7 at 70/500 processed pairs
+2025-07-30 19:25:01,309 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:25:01,309 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:25:13,602 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:25:13,603 - INFO -  Incremental upload #7 completed: 86/86 files (100.0% success)
+2025-07-30 19:25:14,929 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:17,734 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:20,070 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:22,828 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:24,525 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:28,045 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:30,242 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:32,785 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:35,937 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:38,603 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:25:39,641 - INFO -  Starting incremental upload #8 at 80/500 processed pairs
+2025-07-30 19:25:39,641 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:25:39,641 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:25:51,285 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:25:51,286 - INFO -  Incremental upload #8 completed: 86/86 files (100.0% success)
+2025-07-30 19:25:52,855 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:26:00,713 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:26:02,524 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:26:08,716 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:10,898 - DEBUG - Resetting dropped connection: jegy-a.mav.hu
+2025-07-30 19:26:12,192 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:15,423 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:21,522 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:25,181 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:28,180 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:33,443 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:36,815 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:39,719 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:50,569 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:54,910 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:26:58,640 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:02,507 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:04,853 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:06,291 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:12,968 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:15,381 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:18,069 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:21,927 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:23,822 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:25,532 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:27,189 - INFO -  Starting incremental upload #9 at 90/500 processed pairs
+2025-07-30 19:27:27,189 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:27:27,190 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:27:39,115 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:27:39,116 - INFO -  Incremental upload #9 completed: 100/100 files (100.0% success)
+2025-07-30 19:27:40,482 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:42,179 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:43,838 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:47,820 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:50,425 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:53,753 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:27:57,623 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:00,002 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:02,663 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:05,655 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:08,589 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:11,242 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:17,855 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:20,185 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:22,339 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:28,171 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:30,710 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:32,304 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:36,099 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:39,306 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:41,576 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:46,159 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:48,124 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:50,421 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:54,237 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:56,874 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:28:59,275 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:05,980 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:09,291 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:12,036 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:13,503 - INFO -  Starting incremental upload #10 at 100/500 processed pairs
+2025-07-30 19:29:13,503 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:29:13,503 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:29:26,370 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:29:26,372 - INFO -  Incremental upload #10 completed: 120/120 files (100.0% success)
+2025-07-30 19:29:29,996 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:33,980 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:37,623 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:46,482 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:48,672 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:50,418 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:29:57,667 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:00,364 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:03,567 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:06,853 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:09,004 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:10,863 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:15,103 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:17,127 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:18,550 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:23,919 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:27,915 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:30,830 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:37,269 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:40,064 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:42,744 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:47,708 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:51,679 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:55,018 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:30:58,838 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:00,399 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:02,907 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:08,962 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:15,698 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:19,402 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:21,848 - INFO -  Starting incremental upload #11 at 110/500 processed pairs
+2025-07-30 19:31:21,849 - INFO - Uploading files from 2025-07-30
+2025-07-30 19:31:21,849 - DEBUG - Running command: gcloud.cmd storage cp -r json_output\2025-07-30\* gs://mpt-all-sources/blog/mav/json_output/2025-07-30/ --project eti-industries
+2025-07-30 19:31:34,469 - INFO - Successfully uploaded directory contents json_output\2025-07-30/* -> gs://mpt-all-sources/blog/mav/json_output/2025-07-30/
+2025-07-30 19:31:34,470 - INFO -  Incremental upload #11 completed: 140/140 files (100.0% success)
+2025-07-30 19:31:38,860 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:42,121 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:44,964 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:47,937 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:31:49,827 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 400 None
+2025-07-30 19:31:53,857 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:56,384 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:31:58,739 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:03,419 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:05,437 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:07,170 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:09,941 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:12,539 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:14,769 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:17,954 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:20,507 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:22,188 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:27,672 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:30,100 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:33,245 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:36,995 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:39,763 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:42,394 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:46,998 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:49,318 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:51,838 - DEBUG - https://jegy-a.mav.hu:443 "POST /IK_API_PROD/api/OfferRequestApi/GetOfferRequest HTTP/1.1" 200 None
+2025-07-30 19:32:54,592 - INFO - Total pipeline duration: 0:16:43.923776

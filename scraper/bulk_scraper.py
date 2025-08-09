@@ -12,7 +12,6 @@ import random
 from datetime import datetime
 from typing import Dict, Optional, Tuple
 from mav_scraper import MAVScraper
-from station_lookup import MAVStationLookup
 from json_saver import JSONSaver
 
 class BulkMAVScraper:
@@ -22,12 +21,7 @@ class BulkMAVScraper:
         self.csv_path = csv_path
         self.output_dir = output_dir
         self.scraper = MAVScraper(enable_logging=True)
-        self.station_lookup = MAVStationLookup()
-        self.station_lookup.load_stations()
         self.json_saver = JSONSaver(output_dir)
-        
-        # Create city name mappings for common variations
-        self.city_mappings = self._create_city_mappings()
         
         # Statistics
         self.stats = {
@@ -40,68 +34,7 @@ class BulkMAVScraper:
             'end_time': None
         }
     
-    def _create_city_mappings(self) -> Dict[str, Dict[str, str]]:
-        """Create mappings for common city name variations."""
-        print("🗺️ Creating city name mappings...")
-        
-        # Manual mappings for common issues
-        manual_mappings = {
-            'budapest': {'name': 'Bp (BUDAPEST*)', 'code': '005510009'},
-            'bp': {'name': 'Bp (BUDAPEST*)', 'code': '005510009'},
-        }
-        
-        # Auto-discover mappings for other cities
-        cities_to_check = [
-            'Szeged', 'Debrecen', 'Pécs', 'Győr', 'Miskolc', 'Kecskemét',
-            'Szombathely', 'Kőszeg', 'Esztergom', 'Veszprém', 'Tatabánya',
-            'Sopron', 'Kaposvár', 'Nyíregyháza', 'Zalaegerszeg', 'Békéscsaba',
-            'Hajdúszoboszló', 'Balassagyarmat', 'Komárom', 'Rajka'
-        ]
-        
-        city_mappings = manual_mappings.copy()
-        
-        for city in cities_to_check:
-            if city.lower() not in city_mappings:
-                results = self.station_lookup.search_stations(city, limit=3)
-                usable_stations = [s for s in results if s.get('canUseForOfferRequest', False)]
-                
-                if usable_stations:
-                    best_station = usable_stations[0]
-                    city_mappings[city.lower()] = {
-                        'name': best_station['name'],
-                        'code': best_station['code']
-                    }
-                    print(f"  ✅ {city} → {best_station['name']} ({best_station['code']})")
-        
-        print(f"📋 Created {len(city_mappings)} city mappings")
-        return city_mappings
-    
-    def _resolve_station(self, city_name: str) -> Optional[Tuple[str, str]]:
-        """
-        Resolve city name to station code and name.
-        
-        Args:
-            city_name: City name from CSV
-            
-        Returns:
-            Tuple of (station_code, station_name) or None if not found
-        """
-        city_lower = city_name.lower().strip()
-        
-        # Try direct mapping first
-        if city_lower in self.city_mappings:
-            mapping = self.city_mappings[city_lower]
-            return mapping['code'], mapping['name']
-        
-        # Try fuzzy search
-        results = self.station_lookup.search_stations(city_name, limit=3)
-        usable_stations = [s for s in results if s.get('canUseForOfferRequest', False)]
-        
-        if usable_stations:
-            best_station = usable_stations[0]
-            return best_station['code'], best_station['name']
-        
-        return None
+
     
     def _apply_variable_delay(self, base_delay: float):
         """
@@ -129,7 +62,7 @@ class BulkMAVScraper:
         time.sleep(delay)
     
     def load_station_pairs(self) -> list:
-        """Load station pairs from CSV file."""
+        """Load station pairs from CSV file (expects station IDs)."""
         pairs = []
         
         if not os.path.exists(self.csv_path):
@@ -152,47 +85,29 @@ class BulkMAVScraper:
         
         return pairs
     
-    def process_pair(self, source_city: str, dest_city: str, base_delay_seconds: float = 3.0) -> bool:
+    def process_pair(self, source_station_id: str, dest_station_id: str, base_delay_seconds: float = 2.0) -> bool:
         """
-        Process a single station pair.
+        Process a single station pair using station IDs directly.
         
         Args:
-            source_city: Source city name
-            dest_city: Destination city name
+            source_station_id: Source station ID
+            dest_station_id: Destination station ID
             base_delay_seconds: Base delay between requests (will be randomized)
             
         Returns:
             True if successful, False otherwise
         """
-        print(f"\n🚂 Processing: {source_city} → {dest_city}")
-        
-        # Resolve station codes
-        source_info = self._resolve_station(source_city)
-        dest_info = self._resolve_station(dest_city)
-        
-        if not source_info:
-            print(f"❌ Could not resolve source station: {source_city}")
-            return False
-        
-        if not dest_info:
-            print(f"❌ Could not resolve destination station: {dest_city}")
-            return False
-        
-        source_code, source_name = source_info
-        dest_code, dest_name = dest_info
-        
-        print(f"🔍 {source_city} → {source_name} ({source_code})")
-        print(f"🔍 {dest_city} → {dest_name} ({dest_code})")
+        print(f"\n🚂 Processing: {source_station_id} → {dest_station_id}")
         
         try:
-            # Fetch routes with proper station names for logging
+            # Fetch routes using station IDs directly
             success, data = self.scraper.fetch_routes(
-                start_station=source_code,
-                end_station=dest_code,
+                start_station=source_station_id,
+                end_station=dest_station_id,
                 travel_date=None,  # Use today
-                start_time="08:00",  # 8 AM departure
-                start_station_name=source_name,
-                end_station_name=dest_name
+                start_time="00:30",  
+                start_station_name=f"Station_{source_station_id}",  # Placeholder name
+                end_station_name=f"Station_{dest_station_id}"       # Placeholder name
             )
             
             if success:
@@ -201,13 +116,13 @@ class BulkMAVScraper:
                 
                 # Save with JSONSaver (automatically goes to date-based directory)
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"bulk_{source_code}_{dest_code}_{timestamp}"
+                filename = f"bulk_{source_station_id}_{dest_station_id}_{timestamp}"
                 
                 result = self.json_saver.scrape_and_save(
-                    start_station=source_code,
-                    end_station=dest_code,
+                    start_station=source_station_id,
+                    end_station=dest_station_id,
                     travel_date=None,
-                    start_time="08:00",
+                    start_time="00:30",
                     filename=filename
                 )
                 
@@ -224,13 +139,15 @@ class BulkMAVScraper:
             # Be nice to the API with variable delay
             self._apply_variable_delay(base_delay_seconds)
     
-    def run_bulk_scraping(self, max_pairs: Optional[int] = None, base_delay_seconds: float = 3.0):
+    def run_bulk_scraping(self, max_pairs: Optional[int] = None, base_delay_seconds: float = 2.0, progress_callback=None, progress_interval: int = 100):
         """
         Run bulk scraping for all station pairs.
         
         Args:
             max_pairs: Maximum number of pairs to process (None for all)
             base_delay_seconds: Base delay between requests in seconds (will be randomized)
+            progress_callback: Function to call every progress_interval processed pairs
+            progress_interval: How often to call the progress callback (default: 100)
         """
         print("🚀 Starting Bulk MÁV Route Scraping")
         print("=" * 60)
@@ -251,6 +168,8 @@ class BulkMAVScraper:
         
         print(f"📊 Processing {len(pairs)} station pairs with ~{base_delay_seconds:.1f}s variable delay between requests")
         print(f"⏱️ Estimated duration: {len(pairs) * base_delay_seconds / 60:.1f} minutes (may vary due to random delays)")
+        if progress_callback and progress_interval:
+            print(f"📤 Incremental uploads enabled every {progress_interval} processed pairs")
         
         # Process each pair
         for i, (source, dest) in enumerate(pairs, 1):
@@ -263,6 +182,14 @@ class BulkMAVScraper:
                 self.stats['failed'] += 1
             
             self.stats['processed'] += 1
+            
+            # Call progress callback every N items
+            if progress_callback and i % progress_interval == 0:
+                try:
+                    print(f"📤 Running incremental upload at {i}/{len(pairs)} processed pairs...")
+                    progress_callback(i, len(pairs), self.stats)
+                except Exception as e:
+                    print(f"⚠️ Warning: Progress callback failed: {e}")
             
             # Show progress every 10 items
             if i % 10 == 0:
@@ -312,7 +239,7 @@ def main():
     parser.add_argument("csv_file", help="Path to CSV file with station pairs")
     parser.add_argument("--output-dir", default="json_output", help="Output directory (default: json_output)")
     parser.add_argument("--max-pairs", type=int, help="Maximum number of pairs to process")
-    parser.add_argument("--delay", type=float, default=3.0, help="Base delay between requests in seconds (randomized, default: 3.0)")
+    parser.add_argument("--delay", type=float, default=2.0, help="Base delay between requests in seconds (randomized, default: 2.0)")
     parser.add_argument("--test", action="store_true", help="Test mode: process only first 3 pairs")
     
     args = parser.parse_args()
