@@ -27,13 +27,24 @@ class MAVMonitor {
         
         const yesterday = this.getYesterday();
         
-        // Initialize Flatpickr without locale to avoid issues
+        // Initialize Flatpickr with HU locale and nicer UX
         try {
             this.flatpickrInstance = flatpickr(datePicker, {
                 defaultDate: yesterday,
                 maxDate: yesterday,
                 dateFormat: "Y-m-d",
-                theme: "light"
+                locale: (window.flatpickr && window.flatpickr.l10ns && window.flatpickr.l10ns.hu) ? window.flatpickr.l10ns.hu : undefined,
+                altInput: true,
+                altFormat: "Y-m-d",
+                allowInput: true,
+                animate: true,
+                weekNumbers: false,
+                disableMobile: true,
+                onReady: (selectedDates, dateStr, instance) => {
+                    if (instance.altInput) {
+                        instance.altInput.classList.add('fp-alt-input');
+                    }
+                }
             });
         } catch (error) {
             console.error('Failed to initialize flatpickr:', error);
@@ -49,6 +60,9 @@ class MAVMonitor {
         const datePicker = document.getElementById('date-picker');
         const avgDelayBtn = document.getElementById('avg-delay-btn');
         const maxDelayBtn = document.getElementById('max-delay-btn');
+        const themeToggle = document.getElementById('theme-toggle');
+        const iconSun = document.getElementById('icon-sun');
+        const iconMoon = document.getElementById('icon-moon');
         
         if (loadButton) {
             loadButton.addEventListener('click', () => {
@@ -82,6 +96,31 @@ class MAVMonitor {
                 if (chart) chart.resize();
             });
         });
+
+        // Theme toggle (persist in localStorage)
+        const applyTheme = (mode) => {
+            const root = document.documentElement;
+            if (mode === 'dark') {
+                root.classList.add('dark');
+                if (iconSun) iconSun.classList.remove('hidden');
+                if (iconMoon) iconMoon.classList.add('hidden');
+            } else {
+                root.classList.remove('dark');
+                if (iconSun) iconSun.classList.add('hidden');
+                if (iconMoon) iconMoon.classList.remove('hidden');
+            }
+        };
+        const storedTheme = (() => { try { return localStorage.getItem('theme'); } catch { return null; } })();
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        applyTheme(storedTheme || (prefersDark ? 'dark' : 'light'));
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.documentElement.classList.contains('dark');
+                const next = isDark ? 'light' : 'dark';
+                applyTheme(next);
+                try { localStorage.setItem('theme', next); } catch {}
+            });
+        }
     }
     
     // Utilities
@@ -244,30 +283,17 @@ class MAVMonitor {
         this.updateStatus('Adatok betöltése...', true);
         
         try {
-            let resolvedDate = date;
-            if (!options.strict) {
-                // Auto-resolve to available date only when not strict
-                resolvedDate = await this.findLatestAvailableDate(date);
-                if (resolvedDate !== date) {
-                    console.warn(`Selected date ${date} not available, using ${resolvedDate}`);
-                    const datePicker = document.getElementById('date-picker');
-                    if (datePicker) {
-                        datePicker.value = resolvedDate;
-                    }
-                }
-            } else {
-                // Strict mode: verify availability; if missing, throw to show error UI
-                const exists = await this.fileExists(date, 'quick_stats.json');
-                if (!exists) {
-                    throw new Error(`No data available for selected date ${date}`);
-                }
+            // Strict: always use the exact date; verify quick_stats exists
+            const exists = await this.fileExists(date, 'quick_stats.json');
+            if (!exists) {
+                throw new Error(`No data available for selected date ${date}`);
             }
-            this.availableDateUsed = resolvedDate;
+            this.availableDateUsed = date;
             // Persist last successful date
-            try { localStorage.setItem('lastDate', resolvedDate); } catch {}
+            try { localStorage.setItem('lastDate', date); } catch {}
 
             // Load real data from GCS
-            const data = await this.loadRealData(resolvedDate);
+            const data = await this.loadRealData(date);
             this.currentData = data;
             
             // Update UI
@@ -319,13 +345,26 @@ class MAVMonitor {
                 if (!r.ok) throw new Error(`Proxy HTTP ${r.status}`);
                 return r.json();
             };
+            const tryAllOrigins = async () => {
+                const url = `https://api.allorigins.win/raw?url=${encodeURIComponent(directUrl)}`;
+                const r = await fetch(url, { cache: 'no-store' });
+                if (!r.ok) throw new Error(`AllOrigins HTTP ${r.status}`);
+                return r.json();
+            };
+            const tryCorsProxyIo = async () => {
+                const url = `https://corsproxy.io/?${encodeURIComponent(directUrl)}`;
+                const r = await fetch(url, { cache: 'no-store' });
+                if (!r.ok) throw new Error(`corsproxy.io HTTP ${r.status}`);
+                return r.json();
+            };
             if (useProxyFirst) {
-                // On localhost or when forced, never fall back to direct to avoid CORS; treat as missing
-                console.log(`Using proxy for ${fileName}`);
+                // On localhost or when forced, use the local proxy
                 return await tryProxy();
-            } else {
-                try { console.log(`Using direct GCS for ${fileName}`); return await tryDirect(); } catch (_) { console.warn(`Direct failed for ${fileName}, trying proxy`); return await tryProxy(); }
             }
+            // Production: now that bucket CORS is fixed, go direct first for speed
+            try { return await tryDirect(); } catch {}
+            // If direct fails for any reason, fall back to proxy; avoid third-party proxies for performance
+            return await tryProxy();
         };
         const [quickStats, routeAnalysisAlt, delayHistogram, priceHistogram, expensiveRoutes, delayedRoutes] = await Promise.all([
             fetchGcsOrProxy('quick_stats.json').catch(() => null),
@@ -447,15 +486,14 @@ class MAVMonitor {
     async loadDefaultData() {
         const urlParams = new URLSearchParams(window.location.search);
         const paramDate = urlParams.get('date');
-        const stored = (() => { try { return localStorage.getItem('lastDate'); } catch { return null; } })();
-        const preferredBase = paramDate || stored || this.formatYMD(this.getYesterday());
-        const resolvedDate = await this.findLatestAvailableDate(preferredBase);
+        const defaultYesterday = this.formatYMD(this.getYesterday());
+        const dateToUse = paramDate || defaultYesterday;
         const datePicker = document.getElementById('date-picker');
         if (datePicker) {
-            datePicker.value = resolvedDate;
+            datePicker.value = dateToUse;
         }
-        console.log('Loading default data for date:', resolvedDate);
-        await this.loadDataForDate(resolvedDate);
+        console.log('Loading default data for date:', dateToUse);
+        await this.loadDataForDate(dateToUse, { strict: true });
     }
     
     updateStatus(message, loading) {

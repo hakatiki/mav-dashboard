@@ -1,5 +1,5 @@
 // Simple Service Worker for MÁV Monitor
-const CACHE_NAME = 'mav-monitor-v2';
+const CACHE_NAME = 'mav-monitor-v3';
 const urlsToCache = [
   './',
   'index.html',
@@ -21,13 +21,21 @@ self.addEventListener('install', event => {
 
 self.addEventListener('fetch', event => {
   const reqUrl = new URL(event.request.url);
-  // Don't cache cross-origin (e.g., GCS map/data)
-  if (reqUrl.origin !== self.location.origin) {
-    return; // default network behaviour
+  // network-first for HTML/JS to ensure fresh data
+  if (reqUrl.origin === self.location.origin && (reqUrl.pathname.endsWith('.html') || reqUrl.pathname.endsWith('.js'))) {
+    event.respondWith(
+      fetch(event.request).then(r => {
+        const clone = r.clone();
+        caches.open(CACHE_NAME).then(c => c.put(event.request, clone));
+        return r;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
   }
-  event.respondWith(
-    caches.match(event.request).then(response => response || fetch(event.request))
-  );
+  // cache-first for static assets
+  if (reqUrl.origin === self.location.origin) {
+    event.respondWith(caches.match(event.request).then(r => r || fetch(event.request)));
+  }
 });
 
 self.addEventListener('activate', event => {

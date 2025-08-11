@@ -1,6 +1,26 @@
 {
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
     "public": "public",
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+        ]
+      },
+      {
+        "source": "**/*.{js,css}",
+        "headers": [
+          { "key": "Cache-Control", "value": "max-age=3600" }
+        ]
+      }
+    ],
+    "rewrites": [
+      { "source": "/api/mav-data/**", "function": "mavProxy" }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
